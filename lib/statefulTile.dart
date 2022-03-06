@@ -3,14 +3,14 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class StatefulTile extends StatefulWidget {
-  StatefulTile({Key? key}) : super(key: key);
+  const StatefulTile({Key? key}) : super(key: key);
   @override
   _StatefulTileState createState() => _StatefulTileState();
 }
 
 class _StatefulTileState extends State<StatefulTile> {
   Color _color = Colors.black;
-  var _random = new Random();
+  final _random = Random();
   // initStateで色を設定する
   @override
   void initState() {
