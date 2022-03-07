@@ -1,3 +1,5 @@
+// [上級編2:Key｜Flutter実践入門 ～環境構築からAndroid/iOS/Webに広告を付けて同時にリリース!!～](https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/advanced_key)
+
 import 'package:flutter/material.dart';
 import 'package:test_app3/statefulTile.dart';
 
